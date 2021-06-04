@@ -1,4 +1,6 @@
 import AllPokemon from "./Containers/AllPokemon";
+// import Pokemon from "./Components/Pokemon";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const App = () => {
   return (

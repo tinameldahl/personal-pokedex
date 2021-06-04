@@ -1,0 +1,15 @@
+.card {
+  height: 320px;
+  width: 320px;
+  background-color: blue;
+  margin: 32px;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-img {
+  height: 240px;
+  width: 240px;
+}

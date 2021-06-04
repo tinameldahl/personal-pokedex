@@ -16,14 +16,11 @@ const AllPokemon = () => {
 
     console.log(Object.entries(pokemons)[3] && Object.entries(pokemons)[3][1]); // Short Circuit Evaluation with React
     return (
-        <div>
-            <div>
-        {
-        Object.entries(pokemons)[3] &&
+        <div className="card">
+        {Object.entries(pokemons)[3] &&
         Object.entries(pokemons)[3][1].map((pokemon, index) => {
             return <PokemonCard key={index} {...pokemon} id={index +1} />;
         })}
-        </div>
         </div>
     );
 };
